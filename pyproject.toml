@@ -1,0 +1,17 @@
+[project]
+name = "triton-rag"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "easyaction",email = "ksy6808@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "gitpython (>=3.1.45,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
